@@ -1,0 +1,77 @@
+/* Snap */
+
+
+/* Auto layout of the whole webpage body*/
+body{ 
+    display: flex;
+    flex-direction: column;
+    padding: 22px 39px 113px 42px;
+    position: relative;
+    background: #FFFFFF;
+
+}
+
+.navbar{
+    background-color: #FFFFFF;
+}
+
+.nav-logo{
+    width: 84px;
+    height: 27px;
+    margin-right: 2rem;
+
+}
+
+.nav-link{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #686868;
+}
+.nav-link:hover{
+    color: black;
+    font-weight: 700px;
+}
+
+.primary-click{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 13px;
+    width: 106px;
+    height: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #686868;
+    padding-top: 5px;
+}
+.primary-click:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+.sec-click{
+    color: #686868;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.sec-click:hover{
+   
+    color: black;
+}
+
+.rightNav{
+    gap: 36px;
+    width: 860px;
+}
