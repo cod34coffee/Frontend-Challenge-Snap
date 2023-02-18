@@ -11,6 +11,7 @@ body{
 
 }
 
+/* Responsive Navbar */
 .navbar{
     background-color: #FFFFFF;
 }
@@ -73,5 +74,41 @@ body{
 
 .rightNav{
     gap: 36px;
-    width: 860px;
+    
+}
+
+/* Hero Heading & Para */
+.heroHeader{
+    letter-spacing: -0.02em;
+    margin-top: 100px;
+    margin-bottom: 54px;
+}
+
+.heroPara{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    font-style: normal;
+    font-family: "epilogue";
+    color: #686868;
+
+}
+
+/* Learn More Button */
+.learnButton{
+    width: 163px;
+    height: 56px;
+    background: #151515;
+    border-radius: 14px;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 700px;
+    margin-top: 54px;
+}
+
+.learnButton:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: #FFFFFF;
 }

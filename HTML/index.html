@@ -18,14 +18,14 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand"  href="#"><img src="/Image/logo.svg" class="nav-logo" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse navTop" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown me-4" >
                 <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Features</a>
                 <ul class="dropdown-menu">
@@ -54,13 +54,50 @@
                 <a class="nav-link">About</a>
               </li>
             </ul>
-            <div class="d-flex justify-content-end rightNav">
+            <div class="d-flex rightNav">
               <button class=" sec-click" type="submit">Login</button>
               <button class=" primary-click" type="submit">Register</button>
             </div>
           </div>
         </div>
     </nav>
+
+    <!--Inner body of the page. Responsive w/ Bootstrap. -->
+    <div class="container" style="margin-top: 62px; margin-left: 106px;">
+      <div class="row">
+        <!--Need this section to be last on small view-->
+        <div class="col" >
+            <div class="row">
+              <div class="col-12">
+                <h1 class="heroHeader" style="font-size: 81px;
+                line-height: 83px; letter-spacing: -0.02em;"><b>Make
+                <br>remote work</b></h1>
+              </div>
+              <div class="col-9">
+                <p class="heroPara">Get your team in sync, no matter your location. </p>
+                <p class="heroPara"> Streamline processes, create team rituals, and </p>
+                <p class="heroPara"> watch productivity soar.</p>
+              </div>
+              <div class="col-9"><button class="learnButton">Learn More</button></div>
+              <div class="col-9 d-flex " style="margin-top: 107px; margin-bottom: 16px; gap: 40px;
+              ">
+                <img src="/Image/client-databiz.svg" alt="">
+                <img src="/Image/client-audiophile.svg" alt="">
+                <img src="/Image/client-meet.svg" alt="">
+                <img src="/Image/client-maker.svg" alt="">
+              </div>
+            </div>
+        </div>
+              
+        <!--Need this section to be first on small view-->
+        <div class="col" style="margin-right: 106px;">
+          <img src="/Image/image-hero-desktop.png" class="float-end" style="width: 487px;
+          height: 650px;
+          " alt="">        
+        </div>
+      </div>
+    </div>
+
 
     <!--Script Section-->
     <!--Bootstrap Script-->
