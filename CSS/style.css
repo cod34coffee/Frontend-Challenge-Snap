@@ -23,6 +23,11 @@ body{
 
 }
 
+.dropdown-menu{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    
+}
+
 .nav-link{
     font-family: 'Epilogue';
     font-style: normal;
@@ -44,11 +49,7 @@ body{
     letter-spacing: -0.01em;
 }
 
-.dropdown-item{
-    
-    padding-right: 14px;
 
-}
 
 
 
