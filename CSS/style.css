@@ -136,3 +136,66 @@ body{
     color: black;
     background-color: #FFFFFF;
 }
+
+
+@media(min-width:1210px){
+    .picSnapMobile{
+        display: none;
+    }
+}
+
+@media(max-width:1209.98px){
+    .picSnapDesktop{
+        display: none;
+    }
+    .picSnapMobile{
+        position: relative;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+display: block;
+background: url(image-hero-mobile.png);
+order: 0;
+    }
+    .wordArea{
+        order: 1;
+        display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 49px;
+
+width: 344px;
+height: 282px;
+position: relative;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+    }
+
+  
+
+    .heroHeader{
+        font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 6vh;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: -0.005em;
+
+color: #161616;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+}
