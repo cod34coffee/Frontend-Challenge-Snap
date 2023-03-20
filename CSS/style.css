@@ -138,64 +138,106 @@ body{
 }
 
 
+
 @media(min-width:1210px){
     .picSnapMobile{
+        display: none;
+    }
+    .heroHeader2{
         display: none;
     }
 }
 
 @media(max-width:1209.98px){
+
+   body{
+    padding: 22px 39px 113px 39px;
+    position: relative;
+
+
+   }
+
     .picSnapDesktop{
         display: none;
     }
     .picSnapMobile{
         position: relative;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-display: block;
-background: url(image-hero-mobile.png);
-order: 0;
+        left: 0%;
+        right: 0%;
+        top: 10%;
+        display: block;
+        background: url(image-hero-mobile.png);
+        order: 0;
     }
     .wordArea{
-        order: 1;
+        order: 2;
         display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 49px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 49px;
+        text-align: center;
+        height: 282px;
+        position: relative;
+        flex: none;
+        flex-grow: 0;
+    }
 
-width: 344px;
-height: 282px;
+    .heroHeader{
+        display: none;
+    }
+
+    .heroHeader2{
+height: 37px;
+top: 120px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 800;
+font-size: 7vw;
+/* identical to box height */
+
+letter-spacing: -0.005em;
 position: relative;
-
+color: #161616;
+text-align: center;
 /* Inside auto layout */
 
 flex: none;
 order: 1;
 flex-grow: 0;
+       
     }
 
-  
+    .paraSmPart{
+        top: 222px;
+        position: relative;
+    }
 
-    .heroHeader{
-        font-family: 'Epilogue';
-font-style: normal;
-font-weight: 700;
-font-size: 6vh;
-line-height: 37px;
-/* identical to box height */
+    .heroPara{
+        font-size: 3vw;
+       line-height: 38px;
 
-letter-spacing: -0.005em;
+    }
 
-color: #161616;
+    .learnButton{
+        position: relative;
+        top: 225px;
+    }
 
+    .list img{
+        display: none;
+    }
 
-/* Inside auto layout */
+    .listPic{
+        position: relative;
+        align-items: center;
+        display: block;
+        top: 222px;
+    }
+}
 
-flex: none;
-order: 0;
-flex-grow: 0;
+@media(max-width:809.98px){
+    body{
+        padding: 0px 0px 0px 0px;
     }
 }
