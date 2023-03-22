@@ -105,6 +105,70 @@ body{
     
 }
 
+
+.smallerScreenNav{
+    left: 25px;
+    top: 83px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+    color: #767676;
+
+   }
+
+.closebtn{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 195px;
+    top: 21px;
+}
+
+.smallLoginMenu{
+    position: relative;
+    width: 37px;
+    height: 13px;
+    left: 101px;
+    top: 20px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 0.03em;
+
+    color: #686868;
+}
+
+.smallFreeMenu{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 13px 23px;
+    gap: 10px;
+    color: rgba(118, 118, 118, 1);
+    position: relative;
+    width: 197px;
+    height: 40px;
+    left: 24px;
+    top: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #767676;
+    border-radius: 13px;
+}
+
+
+
 /* Hero Heading & Para */
 .heroHeader{
     letter-spacing: -0.02em;
@@ -173,6 +237,20 @@ div .innerBodySize{
     padding: 22px 39px 113px 39px;
     position: relative;
 
+
+   }
+
+   .smallerScreenNav{
+    left: 25px;
+    top: 83px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.03em;
+
+    color: #767676;
 
    }
 

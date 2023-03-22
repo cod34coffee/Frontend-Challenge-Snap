@@ -21,9 +21,9 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand"  href="#"><img src="/Image/logo.svg" class="nav-logo" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <a class="myNav3">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </a>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item dropdown me-4" >
@@ -60,6 +60,64 @@
           </div>
         </div>
     </nav>
+
+    <div id="myNav" class="overlay myNav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        
+        <ul class="dropdown">
+          <div class="nav-item smallListP col-2">
+            <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+               <p class="smallerScreenNav">Features</p>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample2">
+              <ul class="">
+                <li><a class="dropdown-item" style=" margin-top: 13px; margin-right: 14px;" href="#"><img src="/Image/icon-todo 2.png" class="iconsNav" alt="">Todo List</a></li>
+                <li><a class="dropdown-item" href="#" style=" margin-right: 14px;"><img src="/Image/icon-calendar 2.png" class="iconsNav" alt="">Calendar</a></li>
+                <li><a class="dropdown-item" href="#" style=" margin-right: 14px;"><img src="/Image/icon-reminders 2.png" class="iconsNav" alt="">Reminders</a></li>
+                <li><a class="dropdown-item" href="#" style=" margin-right: 14px; margin-bottom: 14px;"><img src="/Image/icon-planning 2.png" class="iconsNav" alt="">Planning</a></li>
+                
+                
+              </ul>            
+          </div>
+          <div class="nav-item smallListP col-2">
+            <a class=" nav-link " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+               <p class="smallerScreenNav">Company</p>
+            </a>
+          </div>
+          <div class="collapse smLink" id="collapseExample">
+              <ul class="menuSmList">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>            
+          </div>
+            
+          
+          <div class="nav-item smallListP col-2">
+            <a class="nav-link" href="#">
+              <p class="smallMenu smallerScreenNav">Careers</p>
+            </a>
+          </div>
+          <div class="nav-item smallListP col-2">
+            <a class="nav-link" href="#" >
+              <p class="smallMenu smallerScreenNav">About</p>
+            </a>
+          </div>
+          <div class="nav-item loginMenu">
+            <a href="#" class="nav-link" style="width:auto;">
+              <p class="smallLoginMenu">Login</p>
+            </a>
+          </div>
+          <div class="nav-item loginMenu">
+            <a href="#" class="nav-link">
+              <p class="smallFreeMenu">Register</p>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
 
     <!--Inner body of the page. Responsive w/ Bootstrap. -->
     <div class="container d-flex ">
@@ -119,5 +177,16 @@
     <!--Bootstrap Script-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-</body>
+
+    <!--Script for the menu-->
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "50%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
 </html>
