@@ -134,25 +134,19 @@ li{
 
    }
 
-.closebtn{
-    position: absolute;
-    left: 390px;
-}
+
 
 .smallLoginMenu{
     position: relative;
-    width: 37px;
     height: 13px;
-    left: 101px;
     top: 20px;
-
+    text-align: center;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 13px;
     letter-spacing: 0.03em;
-
     color: #686868;
 }
 
@@ -172,7 +166,7 @@ li{
     width: 90%;
     height: 40px;
     left: 0px;
-    top: 30px;
+    top: 20px;
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 600;
@@ -201,6 +195,7 @@ li{
     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
         height: 100%;
         position: fixed;
+        width: 0;
         z-index: 1;
         top: 0;
         right: 0;
@@ -236,7 +231,7 @@ li{
   .overlay .closebtn {
     position: absolute;
     top: -10px;
-    right: 5px;
+    right: 35px;
     font-size: 60px;
   }
   
@@ -417,7 +412,7 @@ flex-grow: 0;
 }
 
 @media(min-width:991.98px){
-    .myNav3{
+    .myNav3, .overlay{
         display: none;
     }
 }
@@ -436,8 +431,8 @@ flex-grow: 0;
     .overlay a {font-size: 20px}
     .overlay .closebtn {
       font-size: 40px;
-      top: 15px;
-      right: 35px;
+      top: -12px;
+      right: 3px;
     }
 
     .paraSmPart{
