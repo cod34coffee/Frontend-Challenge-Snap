@@ -62,15 +62,18 @@
     </nav>
 
     <div id="myNav" class="overlay myNav">
+      <!--This is the close button that appears when the hamburger menu opens.-->
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
         
         <ul class="dropdown ">
           <div class="nav-item smallListP ">
+            <!--This is the first item on the menu list.-->
             <a class="nav-link" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
                <p class="smallerScreenNav">Features</p>
             </a>
           </div>
+          <!-- This is what is located on the dropdown part of the features link-->
           <div class="collapse" id="collapseExample2">
               <ul class="">
                 <li><a class="dropdown-item " style="display: flex;"  href="#"><img src="/Image/icon-todo 2.png" class="iconsNav2" alt="" style="width: 18px; height: 21px;"> <p class="iconsNav2Text" style="top:5px; position: relative;">Todo List</p></a></li>
@@ -82,10 +85,12 @@
               </ul>            
           </div>
           <div class="nav-item smallListP col-2">
+            <!--This is the first item on the menu list.-->
             <a class=" nav-link " data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                <p class="smallerScreenNav">Company</p>
             </a>
           </div>
+          <!-- This is what is located on the dropdown part of the features link-->
           <div class="collapse smLink" id="collapseExample">
               <ul class="menuSmList2">
                 <li><a class="dropdown-item" href="#"><p class="iconsNav2Text" style="text-align: start; position: relative;">History</p></a></li>
@@ -96,21 +101,25 @@
             
           
           <div class="nav-item smallListP col-2">
+            <!--This is the first item on the menu list.-->
             <a class="nav-link" href="#">
               <p class="smallMenu smallerScreenNav">Careers</p>
             </a>
           </div>
           <div class="nav-item smallListP col-2">
+            <!--This is the first item on the menu list.-->
             <a class="nav-link" href="#" >
               <p class="smallMenu smallerScreenNav">About</p>
             </a>
           </div>
           <div class="nav-item loginMenu">
+            <!--This is the first item on the menu list.-->
             <a href="#" class="nav-link" style="width:90%;">
               <p class="smallLoginMenu">Login</p>
             </a>
           </div>
           <div class="col-s-12 nav-item loginMenu">
+            <!--This is the first item on the menu list.-->
             <a href="#" class="nav-link">
               <p class="smallFreeMenu">Register</p>
             </a>
@@ -122,7 +131,7 @@
     <!--Inner body of the page. Responsive w/ Bootstrap. -->
     <div class="container d-flex ">
       <div class="row ">
-        <!--Need this section to be last on small view-->
+        <!--Two versions of the title, subtitle, and other items, one for desktop view and one for mobile view.-->
         <div class="col-s-12 col-xl-6 wordArea " >
             <div class="row">
               <div class="innerBodySize">
@@ -159,7 +168,7 @@
             </div>
         </div>
               
-        <!--Need this section to be first on small view-->
+        <!--These are the hero images provide that are to be on the left(desktop) and on the top(mobile)-->
         <div class=" col-xl-6 picSnapDesktop " style="margin-right: 0px; margin-top: 60px;">
           <img src="/Image/image-hero-desktop.png" class="float-end" style="width:100%;
           height: 95vh ;
@@ -178,7 +187,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
-    <!--Script for the menu-->
+    <!--Script for the hamburger menu. The link of the site that helped me is here W3school.com : https://www.w3schools.com/howto/howto_js_curtain_menu.asp-->
     <script>
       function openNav() {
         document.getElementById("myNav").style.width = "50%";

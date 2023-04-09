@@ -91,9 +91,17 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
+<<<<<<< Updated upstream
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
+=======
+### Useful resources 
+
+- [W3schools](https://www.W3school.com) - This site helped me with the hamburger menu.
+- [Bootstrap](https://www.bootstrap.com) - This site helped me with building the layout.
+- [Figma](https://www.figma.com) - This site helped with figuring out some CSS styles.
+>>>>>>> Stashed changes
 
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
