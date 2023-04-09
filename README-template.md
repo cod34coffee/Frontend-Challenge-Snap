@@ -61,9 +61,15 @@ During the process of building this project, I learned more about how to work wi
 
 I really enjoyed working on this project. It helped me with learning more about "@media", and I was able to use what I learned from building this page. I look forward to continue learning more about JavaScript and other tools that help with building websites.
 
+<<<<<<< Updated upstream
 ### Useful resources *
 
 - [W3schools](https://www.W3school.com) - 
+=======
+### Useful resources 
+
+- [W3schools](https://www.W3school.com) - This site helped me with the hamburger menu.
+>>>>>>> Stashed changes
 - [Bootstrap](https://www.bootstrap.com) - This site helped me with building the layout.
 - [Figma](https://www.figma.com) - This site helped with figuring out some CSS styles.
 
