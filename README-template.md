@@ -33,9 +33,9 @@ Users should be able to:
 ![Desktop View Photo](/Image/screencapture-127-0-0-1-5501-HTML-index-html-2023-04-07-23_06_51.png)
 
 
-### Links *
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+### Links 
+- Solution URL: [GitHub Source Code](https://github.com/cod34coffee/Frontend-Challenge-Snap)
+- Live Site URL: [The Live Site](https://frontend-challenge-snap-zeta.vercel.app/)
 
 ## My process
   My process began with me first trying to recreate the image in Figma. After that was completed I used some of the suggested CSS to assist in building the project. I first made an attempt to build the layout, and afterwards I inserted the text and photos. Once that was completed, I continued adding more CSS to get it as close as possible to the image.
