@@ -57,7 +57,7 @@ I really enjoyed working on this project. It helped me with learning more about 
 
 ### Useful resources 
 - [W3schools](https://www.W3schools.com) - This site helped me with the hamburger menu.
-- [Bootstrap](https://www.bootstrap.com) - This site helped me with building the layout.
+- [Bootstrap](https://getbootstrap.com/) - This site helped me with building the layout.
 - [Figma](https://www.figma.com) - This site helped with figuring out some CSS styles.
 
 
